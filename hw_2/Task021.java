@@ -5,10 +5,10 @@ import java.util.Arrays;
 
 //* Реализуйте алгоритм сортировки пузырьком числового массива (введён вами), результат после каждой итерации запишите в лог-файл.
 
-public class Task1 {
+public class Task021 {
     public static void main(String[] args) throws IOException {
         // Создаем новый логгер
-        Logger logger = Logger.getLogger(Task1.class.getName());
+        Logger logger = Logger.getLogger(Task011.class.getName());
 
         // Получение пути до файла логов
         String currentPath = Paths.get("")

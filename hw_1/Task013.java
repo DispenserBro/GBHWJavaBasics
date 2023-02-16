@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //* Реализовать простой калькулятор (+ - / *)
 
-public class Task3 {
+public class Task013 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in, "cp866");
 

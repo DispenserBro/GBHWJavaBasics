@@ -7,7 +7,7 @@ import java.io.File;
  * Студент [фамилия] получил [оценка] по предмету [предмет].
 */
 
-public class Task2 {
+public class Task022 {
     public static void main(String[] args) {
         // Получение пути к исходному файлу
         String currentPath = Paths.get("")
