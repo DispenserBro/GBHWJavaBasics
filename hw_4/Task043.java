@@ -16,7 +16,10 @@ public class Task043 {
 
             if ("".equals(op)) break;
             else if ("Cancel".equals(op) || "cancel".equals(op))
-                if (results.size() < 2) System.out.println("Cannot cancel operation!\nThere's only one result!");
+                if (results.size() < 2) {
+                    results.removeFirst();
+                    results.add(0.0);
+                }
                 else results.removeFirst();
             else {
                 System.out.print("Enter second number: ");
