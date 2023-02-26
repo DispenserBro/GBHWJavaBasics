@@ -15,12 +15,11 @@ public class Task043 {
             String op = sc.nextLine();
 
             if ("".equals(op)) break;
-            else if ("Cancel".equals(op) || "cancel".equals(op))
-                if (results.size() < 2) {
-                    results.removeFirst();
-                    results.add(0.0);
+            else if ("Cancel".equals(op) || "cancel".equals(op)) {
+                results.removeFirst();
+
+                if (results.size() == 0) results.add(0.0);
                 }
-                else results.removeFirst();
             else {
                 System.out.print("Enter second number: ");
                 double secNumber = sc.nextDouble();
